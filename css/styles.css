@@ -1,0 +1,9 @@
+.bg {
+  background-image: url("../images/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome {
+  text-align: center;
+  padding: 20%;
+}
