@@ -1,5 +1,10 @@
-.bg {
+.bg1 {
   background-image: url("../images/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  background-image: url("../images/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,7 +14,12 @@
   padding-bottom: 15%;
 }
 .mouse {
-  margin-left: 48%;
-
-  
+  padding-left: 49%;
+  padding-bottom: 7%;
+}
+.services {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: white;
 }
