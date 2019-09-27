@@ -124,6 +124,12 @@ input[type="text"]
   color: white;
   text-align: left;
 }
+.submit {
+  color:  white;
+  background:transparent;
+  border-style: dashed;
+  
+}
 .social {
   text-align: center;
   padding-top: 20px;
