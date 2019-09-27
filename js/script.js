@@ -9,6 +9,6 @@ $(document).ready(function() {
   });
   $("#img3, #prd").click(function() {
     $("#img3").toggle();
-    $("#prd").toggle(); 
+    $("#prd").toggle();
   });
 });

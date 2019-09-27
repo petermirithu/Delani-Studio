@@ -55,12 +55,12 @@
  transition: .5s ease;
  backface-visibility: hidden;
 }
-.col-md-3:hover .middle {
+.col-md-3:hover .projoname {
   bottom: 0;
   height: 100%;
   opacity: 0.1;
 }
-.middle {
+.projoname {
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -72,7 +72,7 @@
   transition: .5s ease;  
 }
 
-.col-md-3:hover .middle {
+.col-md-3:hover .projoname {
   opacity: 0.5;
 }
 
@@ -102,6 +102,8 @@
 .message {
   width: 740px;
   height: 200px;
+  border: 1px solid white;
+  background: transparent;
 }
 input[type="text"]
 {
