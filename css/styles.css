@@ -8,6 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg3 {
+  background-image: url("../images/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .welcome {
   text-align: center;
   padding-top: 20%;
@@ -16,6 +21,9 @@
 .mouse {
   padding-left: 49%;
   padding-bottom: 7%;
+}
+.about {
+  text-align: center;
 }
 .services {
   text-align: center;
@@ -31,7 +39,40 @@
   text-align: center;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
-  width: 10%;
-  height: 20%;
+ margin: 10px;
   
+}
+.contact {
+  text-align: center;
+  padding-top: 6%;
+  color: white;
+}
+.form {
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+}
+.message {
+  width: 740px;
+  height: 200px;
+}
+input[type="text"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    margin: 10px;
+}
+.name {
+  width: 45%;
+}
+.email {
+  width: 45%;
+}
+::placeholder{
+  color: white;
+  text-align: left;
+}
+.social {
+  text-align: center;
+  padding-top: 20px;
 }
