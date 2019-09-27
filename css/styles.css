@@ -42,12 +42,15 @@
   cursor: pointer;
   display: none;
 }
-.what4
+.heading {
   text-align: center;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
- margin: 10px;
-  
+ margin: 10px; 
+ cursor: pointer; 
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 :hover {
+  background-color: white;
 }
 .contact {
   text-align: center;
