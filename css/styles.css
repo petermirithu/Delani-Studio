@@ -97,7 +97,7 @@
   padding-top: 6%;
   color: white;
 }
-.form {
+#form {
   padding-left: 15%;
   padding-right: 15%;
   color: white;
@@ -124,11 +124,19 @@ input[type="text"]
   color: white;
   text-align: left;
 }
-.submit {
+#submit, #reset {
   color:  white;
   background:transparent;
   border-style: dashed;
-  
+  padding-left: 20px;
+}
+#submit:hover {
+  background-color: black;
+  color: gold;
+}
+#reset:hover {
+  background-color: black;
+  color: gold;
 }
 .social {
   text-align: center;
