@@ -38,7 +38,7 @@
   cursor: pointer;
   color: black;
 }
-#dec {
+#dec, #dev, #prd {
   cursor: pointer;
   display: none;
 }
