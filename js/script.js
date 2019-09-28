@@ -11,6 +11,28 @@ $(document).ready(function() {
     $("#img3").toggle();
     $("#prd").toggle();
   });
+
+  var thumbs = $("body .pee1 img, .pee2 img, .pee3 img");
+
+	for (var i = 0; i < thumbs.length; i++){
+		if (thumbs[i].title && thumbs[i].title.length > 0){
+			var imgtitle = thumbs[i].title;
+			$(thumbs[i]).wrap('<div class="wrapper wrapper'+i+'" />').
+			after('<div class=\'caption\'>' + imgtitle + '</div>').
+			removeAttr('title');
+		}
+	}
+  $('.wrapper0, .wrapper1, .wrapper2').hover(
+    function(){
+      $(this).find('img').animate({opacity: ".6"}, 300);
+      $(this).find('.caption').animate({top:"-247px"}, 300);
+    },
+    function(){
+      $(this).find('img').animate({opacity: "1.0"}, 300);
+      $(this).find('.caption').animate({top:"-370px"}, 100);
+    }
+  );
+
   $("#form").submit(function(event) {
     var name = $("input.name").val();
     var email = $("input.email").val(); 
@@ -23,7 +45,6 @@ $(document).ready(function() {
     alert(results);
     }
     
-    $("#story").show();
     event.preventDefault();
   });
 });
