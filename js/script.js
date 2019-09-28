@@ -24,7 +24,7 @@ $(document).ready(function() {
 	}
   $('.wrapper0, .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6, .wrapper7').hover(
     function(){
-      $(this).find('img').animate({opacity: ".6"}, 300);
+      $(this).find('img').animate({opacity: ".4"}, 300);
       $(this).find('.caption').animate({top:"-247px"}, 300);
     },
     function(){
