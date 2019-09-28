@@ -16,9 +16,9 @@ $(document).ready(function() {
 
 	for (var i = 0; i < thumbs.length; i++){
 		if (thumbs[i].title && thumbs[i].title.length > 0){
-			var imgtitle = thumbs[i].title;
+			var imgTitle = thumbs[i].title;
 			$(thumbs[i]).wrap('<div class="wrapper wrapper'+i+'" />').
-			after('<div class=\'caption\'>' + imgtitle + '</div>').
+			after('<div class=\'caption\'>' + imgTitle + '</div>').
 			removeAttr('title');
 		}
 	}
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
     var results = name + ", " + "your message has successfully been received.Thank you for visiting us.";
     if ((name <=[1]) || (email <=[5]) || (message <=[1])) {
-      alert("There is nothing to be sumbited!")
+      alert("Please fill in all fields before Pressing Submit!")
     }else {
     alert(results);
     }

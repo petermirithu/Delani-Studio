@@ -125,4 +125,5 @@ input[type="text"]
 .social {
   text-align: center;
   padding-top: 20px;
+  cursor: pointer;
 }
