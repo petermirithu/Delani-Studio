@@ -87,7 +87,7 @@ div.caption {
   color: white;
 }
 .message {
-  width: 740px;
+  width: 750px;
   height: 200px;
   border: 1px solid white;
   background: transparent;
@@ -112,7 +112,8 @@ input[type="text"]
   color:  white;
   background:transparent;
   border-style: dashed;
-  padding-left: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #submit:hover {
   background-color: black;
@@ -127,3 +128,93 @@ input[type="text"]
   padding-top: 20px;
   cursor: pointer;
 }
+
+@media screen and (max-width:1000px) {
+  .col-md-3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  div.wrapper{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+  }
+  
+  div.caption {
+    font-family:arial;
+    font-weight:bold;
+    color: rgb(12, 1, 1);  
+    font-size:15px;
+    position: relative;
+    text-align:left;
+    padding:3px;
+    min-height:120px;
+    line-height:20px;  
+  }
+  .message {
+    width: 450px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .col-md-3 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  div.wrapper{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    position:relative;
+  }
+  
+  div.caption {
+    font-family:arial;
+    font-weight:bold;
+    color: rgb(12, 1, 1);  
+    font-size:15px;
+    position:relative;
+    text-align:left;
+    padding:3px;
+    min-height:120px;
+    line-height:20px;  
+  }
+  .message {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width:400px) {
+  .col-md-3 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  div.wrapper{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    position:relative;
+  }
+  
+  div.caption {
+    font-family:arial;
+    font-weight:bold;
+    color: rgb(12, 1, 1);  
+    font-size:15px;
+    position:relative;
+    text-align:left;
+    padding:3px;
+    min-height:120px;
+    line-height:15px;  
+  }
+  .message {
+    width: 200px;
+    height: 200px;
+  }
+}
+
