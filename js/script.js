@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#prd").toggle();
   });
 
-  var thumbs = $("body .pee1 img, .pee2 img, .pee3 img");
+  var thumbs = $(".pic1 img, .pic2 img, .pic3 img, .pic4 img, .pic5 img, .pic6 img, .pic7 img, .pic8 img");
 
 	for (var i = 0; i < thumbs.length; i++){
 		if (thumbs[i].title && thumbs[i].title.length > 0){
@@ -22,7 +22,7 @@ $(document).ready(function() {
 			removeAttr('title');
 		}
 	}
-  $('.wrapper0, .wrapper1, .wrapper2').hover(
+  $('.wrapper0, .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6, .wrapper7').hover(
     function(){
       $(this).find('img').animate({opacity: ".6"}, 300);
       $(this).find('.caption').animate({top:"-247px"}, 300);

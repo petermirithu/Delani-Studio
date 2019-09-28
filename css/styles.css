@@ -50,27 +50,17 @@
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
  margin: 10px; 
- cursor: pointer; 
-}
-/* fghjkld */
-.pee1, .pee2, .pee3 {
-  padding:0;
-  margin:0;
-}
-.pee1, .pee2, .pee3  {
-  float:left;
-  list-style:none;
-  margin:25px;
-  width:218px;
-  height:218px;
-  overflow:hidden;
-  border:1px solid #d2d2d2;
-  background:#ececec;
+ cursor: pointer;  
+ float:left;
+ list-style:none;
+ overflow:hidden;
+ border:1px solid #d2d2d2;
+ background:#ececec;
 }
 
 div.wrapper{
-  width:218px;
-  height:218px;
+  width:250px;
+  height:250px;
   overflow:hidden;
   position:relative;
 }
@@ -84,15 +74,6 @@ div.caption {
   padding:55px 15px 15px 15px;
   min-height:125px;
   line-height:16px;
-}
-
-.wrapper0 div.caption {
-  background:url('images/caption-bg.png') repeat-x;
-}
-.wrapper2 div.caption {
-  top:-370px;
-  padding-top:44px;
-  background:url('images/caption-bg-top.png') repeat-x;
 }
 
  /* opacity: 1;
