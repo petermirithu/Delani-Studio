@@ -26,6 +26,10 @@
 #about {
   text-align: center;
 }
+body {
+  font-family: 'Aladin';font-size: 22px;
+}
+
 .row {
   text-align: center;
 }
